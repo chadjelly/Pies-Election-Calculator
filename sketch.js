@@ -228,7 +228,7 @@ function draw() {
     textAlign(CENTER);
     strokeWeight(5);
     textSize(30 + (1 * cos(frameCount/31)));
-    text( "Loading up the money canon...", centerWidth, centerHeight + (15*sin(frameCount/40)) );
+    text( "Loading up the money cannon...", centerWidth, centerHeight + (15*sin(frameCount/40)) );
   }
 }
 
