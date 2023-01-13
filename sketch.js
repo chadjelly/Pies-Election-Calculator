@@ -12,6 +12,8 @@ var centerHeight;
 var inp;
 var button;
 
+var noDecrees = true;
+
 var pieColors = {
   teal : "#399d8f", 
   orange : "#EC970B",
@@ -47,73 +49,57 @@ function setup() {
   
   ballot = {
     "Decrees": [{
-      "name": "Blah, Blah, Blah",
+      "name": "Redistribute Wealth",
       "percent": 0
     }, {
-      "name": "Reverse The Road",
+      "name": "Relegation",
       "percent": 0
     }, {
-      "name": "Chuck Corn",
-      "percent": 0
-    }],
-    "Wills": [{
-      "name": "Infuse",
-      "percent": 20
-    }, {
-      "name": "Exchange",
-      "percent": 0
-    }, {
-      "name": "Trust",
-      "percent": 0
-    }, {
-      "name": "Swap",
-      "percent": 20
-    }, {
-      "name": "Move",
-      "percent": 0
-    }, {
-      "name": "Plunge",
+      "name": "Open the Forbidden Book",
       "percent": 0
     }],
     "Blessings": [{
-      "name": "Rub the Stack",
-      "percent": 10
-    }, {
-      "name": "Required Denny's",
+      "name": "Yeet",
       "percent": 0
     }, {
-      "name": "Snowball Lobber",
-      "percent": 5
-    }, {
-      "name": "Gust of Wind",
+      "name": "Strong Start",
       "percent": 0
     }, {
-      "name": "Grab Bag",
+      "name": "Shadow Play",
       "percent": 0
     }, {
-      "name": "Sweep the Room",
-      "percent": 5
+      "name": "Shore Up",
+      "percent": 0
     }, {
-      "name": "Bunker",
+      "name": "Wind Sprints",
       "percent": 15
     }, {
-      "name": "Fried Chimes",
+      "name": "Guess Whose Thwack",
+      "percent": 5
+    }, {
+      "name": "Max Out Pitcher",
+      "percent": 5
+    }, {
+      "name": "Max Out Batter",
+      "percent": 5
+    }, {
+      "name": "Steal Best Pitcher",
+      "percent": 5
+    }, {
+      "name": "Steal Best Batter",
+      "percent": 5
+    }, {
+      "name": "Pitching Boost",
+      "percent": 20
+    }, {
+      "name": "Batting Boost",
+      "percent": 20
+    }, {
+      "name": "Team Boost",
+      "percent": 20
+    }, {
+      "name": "Randomize Players",
       "percent": 0
-    }, {
-      "name": "Admiration",
-      "percent": 0
-    }, {
-      "name": "Growing Pains",
-      "percent": 15
-    }, {
-      "name": "Wait for it",
-      "percent": 0
-    }, {
-      "name": "Concert Hall",
-      "percent": 0
-    }, {
-      "name": "Lord of the Flyballs",
-      "percent": 10
     }]
   };
   
@@ -223,7 +209,21 @@ function draw() {
         textAlign(RIGHT);
         text( Math.round(votesTotal*(ballot[Object.keys(ballot)[i]][a].percent/100)), centerWidth-(sectionWidth/2)-((numOfSections-1)*0.5*displacement)+(i*displacement) + (sectionWidth-20), 295 + (24*a) );
       }
-    } 
+      if( noDecrees && i == 0 ) {
+        textAlign(CENTER);
+        textSize(20 + (sin(frameCount/30)/1) );
+        textStyle(BOLD);
+        fill(pieColors.teal);
+        stroke(pieColors.white);
+        strokeWeight(10);
+        push();
+        translate(centerWidth-(sectionWidth/2)-((numOfSections-1)*0.5*displacement)+(i*displacement) + (sectionWidth/2), 300);
+        rotate( sin(frameCount/75)/10 );
+        text( "DONT WASTE YOUR VOTES ON THESE", 0, 0 );
+        pop();
+      }
+    }
+    
   } else {
     textAlign(CENTER);
     strokeWeight(5);
