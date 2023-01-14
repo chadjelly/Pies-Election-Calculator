@@ -84,19 +84,19 @@ function setup() {
       "percent": 5
     }, {
       "name": "Steal Best Pitcher",
-      "percent": 5
+      "percent": 15
     }, {
       "name": "Steal Best Batter",
       "percent": 5
     }, {
       "name": "Pitching Boost",
-      "percent": 20
+      "percent": 15
     }, {
       "name": "Batting Boost",
       "percent": 20
     }, {
       "name": "Team Boost",
-      "percent": 20
+      "percent": 15
     }, {
       "name": "Randomize Players",
       "percent": 0
