@@ -59,6 +59,33 @@ function setup() {
       "percent": 0
     }],
     "Blessings": [{
+      "name": "Batting Boost",
+      "percent": 20
+    }, {
+      "name": "Pitching Boost",
+      "percent": 15
+    }, {
+      "name": "Team Boost",
+      "percent": 15
+    }, {
+      "name": "Wind Sprints",
+      "percent": 15
+    }, {
+      "name": "Steal Best Pitcher",
+      "percent": 15
+    }, {
+      "name": "Steal Best Batter",
+      "percent": 5
+    }, {
+      "name": "Guess Whose Thwack",
+      "percent": 5
+    }, {
+      "name": "Max Out Pitcher",
+      "percent": 5
+    }, {
+      "name": "Max Out Batter",
+      "percent": 5
+    }, {
       "name": "Yeet",
       "percent": 0
     }, {
@@ -70,33 +97,6 @@ function setup() {
     }, {
       "name": "Shore Up",
       "percent": 0
-    }, {
-      "name": "Wind Sprints",
-      "percent": 15
-    }, {
-      "name": "Guess Whose Thwack",
-      "percent": 5
-    }, {
-      "name": "Max Out Pitcher",
-      "percent": 5
-    }, {
-      "name": "Max Out Batter",
-      "percent": 5
-    }, {
-      "name": "Steal Best Pitcher",
-      "percent": 15
-    }, {
-      "name": "Steal Best Batter",
-      "percent": 5
-    }, {
-      "name": "Pitching Boost",
-      "percent": 15
-    }, {
-      "name": "Batting Boost",
-      "percent": 20
-    }, {
-      "name": "Team Boost",
-      "percent": 15
     }, {
       "name": "Randomize Players",
       "percent": 0
