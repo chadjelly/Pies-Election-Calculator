@@ -49,44 +49,44 @@ function setup() {
   
   ballot = {
     "Decrees": [{
-      "name": "Redistribute Wealth",
+      "name": "Mage Umpire",
       "percent": 0
     }, {
-      "name": "Relegation",
+      "name": "Knight Umpire ",
       "percent": 0
     }, {
-      "name": "Open the Forbidden Book",
+      "name": "Bard Umpire",
+      "percent": 0
+    }, {
+      "name": "Rogue Umpire",
       "percent": 0
     }],
     "Blessings": [{
       "name": "Batting Boost",
-      "percent": 20
+      "percent": 30
     }, {
       "name": "Pitching Boost",
-      "percent": 15
-    }, {
-      "name": "Team Boost",
-      "percent": 15
+      "percent": 30
     }, {
       "name": "Wind Sprints",
-      "percent": 15
+      "percent": 30
     }, {
-      "name": "Steal Best Pitcher",
-      "percent": 15
-    }, {
-      "name": "Steal Best Batter",
-      "percent": 5
-    }, {
-      "name": "Guess Whose Thwack",
-      "percent": 5
-    }, {
-      "name": "Max Out Pitcher",
-      "percent": 5
-    }, {
-      "name": "Max Out Batter",
-      "percent": 5
+      "name": "Ball Hawk",
+      "percent": 10
     }, {
       "name": "Yeet",
+      "percent": 0
+    }, {
+      "name": "Dark Matter",
+      "percent": 0
+    }, {
+      "name": "Learn to Defend",
+      "percent": 0
+    }, {
+      "name": "Magnetic Fielder",
+      "percent": 0
+    }, {
+      "name": "Telekinesis",
       "percent": 0
     }, {
       "name": "Strong Start",
@@ -95,10 +95,16 @@ function setup() {
       "name": "Shadow Play",
       "percent": 0
     }, {
-      "name": "Shore Up",
+      "name": "Mage Strike",
       "percent": 0
     }, {
-      "name": "Randomize Players",
+      "name": "Knight Strike",
+      "percent": 0
+    }, {
+      "name": "Bard Strike",
+      "percent": 0
+    }, {
+      "name": "Rogue Strike",
       "percent": 0
     }]
   };
