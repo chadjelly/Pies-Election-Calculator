@@ -12,7 +12,7 @@ var centerHeight;
 var inp;
 var button;
 
-var noDecrees = true;
+var noDecrees = false;
 
 var pieColors = {
   teal : "#399d8f", 
