@@ -50,7 +50,7 @@ function setup() {
   ballot = {
     "Decrees": [{
       "name": "Mage Umpire",
-      "percent": 0
+      "percent": 10
     }, {
       "name": "Knight Umpire ",
       "percent": 0
@@ -63,16 +63,16 @@ function setup() {
     }],
     "Blessings": [{
       "name": "Batting Boost",
-      "percent": 30
+      "percent": 28.5
     }, {
       "name": "Pitching Boost",
-      "percent": 30
+      "percent": 28.5
     }, {
       "name": "Wind Sprints",
-      "percent": 30
+      "percent": 28.5
     }, {
       "name": "Ball Hawk",
-      "percent": 10
+      "percent": 8.25
     }, {
       "name": "Yeet",
       "percent": 0
