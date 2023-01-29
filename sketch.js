@@ -63,16 +63,16 @@ function setup() {
     }],
     "Blessings": [{
       "name": "Batting Boost",
-      "percent": 28.5
+      "percent": 27.5
     }, {
       "name": "Pitching Boost",
-      "percent": 28.5
+      "percent": 27.5
     }, {
       "name": "Wind Sprints",
-      "percent": 28.5
+      "percent": 27.5
     }, {
       "name": "Ball Hawk",
-      "percent": 8.25
+      "percent": 7.25
     }, {
       "name": "Yeet",
       "percent": 0
